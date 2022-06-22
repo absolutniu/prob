@@ -1,0 +1,57 @@
+body{
+   font-size: 18px;
+   color: #333;
+   font-family: sans-serif;
+   line-height: 1.5;
+}
+h1 {
+   margin-top: 50px;
+   margin-bottom: 10px;
+   font-size: 60px;
+   text-align: center;
+}
+h1, h2{
+   text-shadow: 1px 1px 1px black;
+}
+#iconHeader {
+   width: 50px;
+   height: 50px;
+   float:left;
+}
+.logo-nav{
+   display:block;
+}
+.logo-nav:hover, ul.nav li:hover {
+   background-color:burlywood;
+}
+.logo-nav:active, ul.nav li:active {
+   background-color:cornflowerblue;
+}
+button:focus{
+   color:blueviolet;
+   background-color:cadetblue;
+}
+.headNav{
+   display: flex; 
+   justify-content:flex-start;
+   align-items:center;
+   height: auto;
+}
+ul.nav {
+   margin: 0; /* Обнуляем значение отступов */
+   padding: 4px; /* Значение полей */
+  }
+  ul.nav li {
+   background-color:LightCoral;
+   display: inline; /* Отображать как строчный элемент */
+   margin-right: 5px; /* Отступ слева */
+   border: 1px solid #000; /* Рамка вокруг текста */
+   padding: 3px; /* Поля вокруг текста */
+}
+
+select optgroup option:checked{
+   background-color: brown;
+}
+*:enabled{
+   background-color: rgb(210, 223, 198);
+}
