@@ -1,0 +1,47 @@
+.green {
+   background: #007236;
+}
+.yellow {
+   background: #ffff01;
+}
+.light-blue {
+   background: #6dcff6;
+}
+.purple {
+   background: #8812fc;
+}
+.gray {
+   background: #464646;
+}
+.blue {
+   background: #2e3192;
+}
+.orange {
+   background: #f36523;
+}
+.lightgray {
+   background: #a1a1a1;
+}
+.red {
+   background: #9d0b0e;
+}
+.black {
+   background: #202020;
+}
+.br-2 {
+   border-radius: 2px;
+}
+.br-20 {
+   border-radius: 20px;
+}
+.text {
+   text-align:center;
+   color: white;
+}
+.logo-b {
+   width: 70px;
+   height: 70px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
