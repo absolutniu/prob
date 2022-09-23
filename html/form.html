@@ -3,14 +3,14 @@
  <head>
   <meta charset="utf-8">
   <title>Заявка</title>
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
  </head>
  <body>  
- <form action="SetForm.html">
-  <p><input required placeholder="Имя"></p>
-  <p><input type="email" required placeholder="Ваш email"></p>
-  <p><input type="url" required placeholder="Сайт"></p>
-  <p><button type="submit">Отправить</button></p>
- </form>
+  <form method="post">
+    <p><input name="userName" required placeholder="Имя"></p>
+    <p><input name="userEmail" type="email" required placeholder="Ваш email"></p>
+    <p><input name="userURL" type="url" required placeholder="Сайт"></p>
+    <p><button type="submit">Отправить</button></p>
+  </form>
  </body>
 </html>

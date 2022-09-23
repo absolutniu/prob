@@ -3,12 +3,14 @@
  <head>
   <meta charset="utf-8">
   <title>Каталог</title>
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
  </head>
  <body>
-
-  <form>
-   <p><select>
+  <form method ="post">
+   <p>Введите свое имя для заказа</p>
+   <p><input name="userName" required placeholder="Имя"></p>
+   <p>Выберите предпочитаемую воду и количество бутылей</p>
+   <p><select name="selectWater">
    <optgroup label="Вода 'Standart'">
     <option value="c1">Хваловские воды</option>
     <option value="c2">Сестрица</option>
@@ -19,9 +21,9 @@
     <option value="s2">Ессентуки</option>
     <option value="s3">Perrier</option>
    </optgroup>
-   </select>
-   <input type="submit" value="Выбрать"></p>
-</p>
+   </select></p>
+   <p><input type="number" min="1" name="countWater" required placeholder="количество">
+      <input type="submit" value="Отправить"></p>
    <p>Или <a href="form.html">оставьте заявку</a> и мы свяжемся с Вами в течение 5 минут</p>
   </form>
 
